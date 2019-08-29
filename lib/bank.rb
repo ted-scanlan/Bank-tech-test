@@ -1,6 +1,6 @@
 require 'date'
-require 'transaction'
-require 'statement'
+require_relative '../lib/transaction.rb'
+require_relative '../lib/statement.rb'
 
 class Bank
   attr_reader :total
